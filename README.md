@@ -31,12 +31,40 @@
 - afin de mener à bien ce projet dans des conditions optimal.
 ```
 
-### 1 - Cloner le repository
+### 1 - S'auto ajouter une tâche dans le kanban
 
-```sh
-# Tu devras cloner la branche develop du repository sur lequel tu es amenez à travailler.
-git clone https://URL_DE_LA_BRANCHE_QUE_TU_AS_COPIE
+```diff
++ Chaque membre devra cibler une tâche spécifique et se l'ajouter sur le projet commun (Kanban).
++ Faite en sorte d'écrire cette partie là en anglais 🇬🇧.
+- Veuillez respecter impérativement la structure afin de filtrer plus facilement les tâches.
 ```
+
+### 2 - Cloner le repository ( _Uniquement la première fois_ )
+
+Une fois le **Kanban** mis à jour alors tu vas pouvoir travailler sur le projet
+
+#### 2.1 - Six branches peuvent-être clonés
+
+1. Documentation Générale
+   `git clone https://github.com/StamIot/HandyMirror-Documents.git`
+   <br />
+2. L'application mobile
+   `git clone https://github.com/StamIot/HandyMirror-MobileApp.git`
+   <br />
+
+3. Miroir Magique
+   `git clone https://github.com/StamIot/HandyMirror-MagicMirror.git`
+   <br />
+4. L'API
+   `git clone https://github.com/StamIot/HandyMirror-API.git`
+   <br />
+5. Le site e-commerce
+   `git clone https://github.com/StamIot/HandyMirror-E-commerce-Client.git`
+   <br />
+6. L'API Plateforme
+   `git clone https://github.com/StamIot/HandyMirror-E-commerce-API.git`
+   <br />
+
 
 ### 2 - Se rendre dans le repository fraîchement récupérer
 
