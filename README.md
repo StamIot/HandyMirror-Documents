@@ -66,20 +66,20 @@ Une fois le **Kanban** mis à jour alors tu vas pouvoir travailler sur le projet
    <br />
 
 
-### 2 - Se rendre dans le repository fraîchement récupérer
+### 3 - Se rendre dans le repository fraîchement récupérer
 
 ```sh
 # Une fois le clone effectuer tu devras te déplacer dans le répertoire de travaille.
 cd NOM_DU_PROJET
 ```
 
-### 3 - Créer sa branche selon quelques règles
+### 4 - Créer sa branche selon quelques règles
 
 > Tu devras des branches spécifiques qui seront amener à être supprimer avec le temps que si elle ne nécessite plus d'intervention des membres du projet.
 
 ci-dessous se trouve les règles suivi d'un exemple.
 
-#### 3.1 - Règles de nommage des branches
+#### 4.1 - Règles de nommage des branches
 
 -   **feature/createLoginForm**
     -   _La branche qui te permettra de créer une nouvelle fonctionnalité_
@@ -90,7 +90,7 @@ ci-dessous se trouve les règles suivi d'un exemple.
 -   **test/createLoginForm**
     -   _Cette branche te servira pour tester la compatibilité avec la branche develop_
 
-#### 3.2 - Exemple sur l'utilisation des branches
+#### 4.2 - Exemple sur l'utilisation des branches
 
 ```sh
 # Ajout d'une nouvelle feature (exemple)
@@ -106,7 +106,7 @@ git checkout -b patch.loginForm
 git checkout -b test/loginForm
 ```
 
-### 4 - Respecter la syntaxe des commits
+### 5 - Respecter la syntaxe des commits
 
 > **Tu dois prendre en considération qu'il y a une syntaxe a respecter pour les commits**.
 > c'est volontaire pour une meilleure gestion du projet.
@@ -121,7 +121,7 @@ git checkout -b test/loginForm
 - mais l'intégralité du code ainsi que des commits seront eux en ANGLAIS
 ```
 
-#### 4.1 - Exemple d'un commit
+#### 5.1 - Exemple d'un commit
 
 ```sh
 # Ajout d'une nouvelle feature (exemple)
@@ -137,7 +137,7 @@ git commit -m "patch: login form" -m "path text for name label"
 git commit -m "test: login form" -m "test of feature before merge to develop branch"
 ```
 
-#### 4.2 - Explication des deux -m
+#### 5.2 - Explication des deux -m
 
 ```sh
 # Voici ce que signifie précisément les deux -m
@@ -150,7 +150,7 @@ git commit -m "Titre du commit" -m "Contenu du commit"
 + tu n'auras rien à modifier sur ton commit de ta futur pull request.
 ```
 
-### 5 - Création de la pull request
+### 6 - Création de la pull request
 
 Une fois que tout te semble OK, tu peux te rendre sur le projet, il te faudra cliquer sur l'onglet **pull request** où tu verras que tu as une pull request à faire.
 Une fois que celle-ci sera faîte, alors il ne te restera plus qu'à la soumettre.
@@ -163,7 +163,7 @@ Quelques subtilités:
 -   [x] Attribue toi le projet
 -   [x] Enfin soumet la pull request et patiente pour la review de code.
 
-### 6 - Attendre une review
+### 7 - Attendre une review
 
 _En attendant va travailler sur une autre étape du projet_
 
